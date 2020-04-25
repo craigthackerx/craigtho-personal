@@ -36,7 +36,7 @@ services:
     volumes:
     - type: volume
       source: db-data
-      target: /var/db
+      target: /var/lib/mysql
 
 volumes:
   ts-data:
