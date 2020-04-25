@@ -1,0 +1,1 @@
+FROM craigtho/mariadb-ts3:latest
