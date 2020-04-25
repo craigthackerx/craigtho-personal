@@ -23,7 +23,7 @@ services:
     volumes:
     - type: volume
       source: ts-data
-      target: /opt/ts3
+      target: /var/ts3server
 
   database:
     build: ./database
