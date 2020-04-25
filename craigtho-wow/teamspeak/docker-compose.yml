@@ -7,10 +7,10 @@ services:
     container_name: "teamspeak-app"
     restart: always
     ports:
-      - 9987:9987/udp
-      - 10011:10011
-      - 30033:30033
-      - 1222:22
+      - "9987:9987/udp"
+      - "10011:10011"
+      - "30033:30033"
+      - "1222:22"
     environment:
       TS3SERVER_DB_PLUGIN: ts3db_mariadb
       TS3SERVER_DB_SQLCREATEPATH: create_mariadb
