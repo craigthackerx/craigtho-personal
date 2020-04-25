@@ -3,7 +3,7 @@ services:
 
  airpoint-portainer:
     build: ./portainer
-    container_name: airpoint-portainer
+    container_name: craigtho-portainer
     restart: unless-stopped
     image: craigtho/portainer
     ports:
