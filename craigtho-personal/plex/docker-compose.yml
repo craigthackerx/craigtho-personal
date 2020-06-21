@@ -21,7 +21,7 @@ services:
       HOSTNAME: "craigtho-plex-server"
       TZ: "Europe/London"
       PLEX_CLAIM: "insert-here"
-      ADVETISE_IP: "10.0.1.250:32400"
+      ADVETISE_IP: "http://10.0.1.250:32400"
     
     volumes:
     - type: bind
