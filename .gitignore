@@ -3,3 +3,8 @@ craigtho-personal/plex/linux-portainer/portainer/portainer.crt
 
 craigtho-personal/teamspeak/linux-portainer/portainer/portainer.key
 craigtho-personal/teamspeak/linux-portainer/portainer/portainer.crt
+
+craigtho-personal/pihole/etc-dnsmasq/
+craigtho-personal/pihole/etc-pihole/
+craigtho-personal/pihole/etc-pihole/pihole-FTL.db
+craigtho-personal/pihole/etc-dnsmasq.d/01-pihole.conf
